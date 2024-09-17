@@ -30,7 +30,7 @@
             <div id="loginBtn">
                 Login
             </div>
-            <!-- <button id="add-border">Add Border</button> -->
+            <button id="add-border">Add Border</button>
 
             <button id="close">Close Sidebar</button>
 
@@ -57,7 +57,7 @@
     </div>
 
     <div class="main">
-        <div class="section revenue" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+        <!-- <div class="section revenue" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
             <h2>Revenue</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
@@ -80,10 +80,32 @@
         <div class="section events" onmouseover="eleHover(this)" onmouseout=" eleOut(this)">
             <h2>Events</h2>
             <p>Quisque eu massa a mauris ultricies dapibus non vitae nulla.</p>
+        </div> -->
+
+        <form id="myForm">
+            <label for="nameInput"> Name:</label>
+            <input type="text" id="nameInput" placeholder="enter ur name"><br>
+
+            <button type="submit"> Submit </button>
+        </form>
+        <div class="user-details">
+            <h3>User details</h3>
+            <h2 id="name" style="color: blue;"></h2>
         </div>
 
+    </div>
 
-        <script src="project.js"></script>
+    <select id="myColors">
+        <option value="red">Red</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+    </select>
+
+    <div id="box"></div>
+
+    <script src="hero.js"></script>
+    
+        
 </body>
 
 </html>
